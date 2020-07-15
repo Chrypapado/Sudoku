@@ -1,8 +1,8 @@
 import sys
 import fileinput
 
-from SudokuBoard import print_board
-from SudokuSolver import backtrack
+from Sudoku.SudokuBoard import print_board
+from Sudoku.SudokuSolver import backtrack
 
 board = []
 

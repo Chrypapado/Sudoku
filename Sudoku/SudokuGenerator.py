@@ -6,7 +6,7 @@ Date: July 2019
 Description: Generates a solved Sudoku Puzzle
 """
 
-from SudokuSolver import no_value, valid_element
+from .SudokuSolver import no_value, valid_element
 
 from random import shuffle
 import copy

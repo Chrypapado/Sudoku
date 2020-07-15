@@ -6,9 +6,9 @@ Date: July 2019
 Description: Creates a Sudoku Puzzle
 """
 
-from SudokuGenerator import generate_board, empty_board
-from SudokuSolver import valid_element
-from SudokuBoard import print_board
+from .SudokuGenerator import generate_board, empty_board
+from .SudokuSolver import valid_element
+from .SudokuBoard import print_board
 
 from random import shuffle
 
